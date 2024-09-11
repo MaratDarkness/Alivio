@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+    font-family: Lato;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+.header {
+    padding: 17px 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__link {
+    color: #292929;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header__item {
+    margin-right: 70px;
+}
+
+.btn {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #01996D;
+    padding: 13px 50px;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn_white {
+    color: #000;
+    background-color: #fff;
+}
+
+.main {
+    background: url('../img/BG.png') no-repeat center center / cover;
+    height: 90vh;
+    padding-top: 170px;
+}
+
+.main__info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 25px;
+}
+
+.main__title {
+    color: #01996D;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    width: 392px;
+}
+
+.main__btn{
+    width: 228px;
+}
+
+.main__text {
+    color: #484848;
+    font-weight: 500;
+    margin-bottom: 55px;
+    width: 330px;
+}
+
+/* Steps */
+
+.steps {
+    padding: 169px 0 255px 0;
+}
+
+.steps_subtitle {
+    color: #424242;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.steps__title {
+    color: #01996D;
+    font-weight: 900;
+    font-size: 50px;
+    max-width: 584px;
+}
+
+.steps__text {
+    color: #424242;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    width: 635px;
+}
+
+.steps__block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 190px;
+}
+
+.steps__card {
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.steps__row {
+    display: flex;
+    justify-self: space-between ;
+}
+
+.steps__pic img{
+    border-radius: 12px;
+}
+
+.text2{
+    padding: 0 0 0 40px;
+}
+
+.text22{
+    padding: 0 100px 176px 100px;    
+}
+
+.all{
+    display: flex;
+    padding: 280px 100px 126px 60px;
+    background-color: #245852;
+}
+
+.nonall{
+    color: #FFFFFF;
+}
+
+.btn3{
+    font-size: 15px;
+    margin: 50px 50px 50px 0;
+    width: 240px;
+    height: 60px;
+}
+
+.text01{
+    font-size: 50px;
+    width: 550px;
+    font-family: Georgia;
+    padding: 0 57px 0 0;
+}
+
+.text02{
+    font-size: 25px;
+    width: 550px;
+    margin: 57px 50px 20px 0;
+}
+
+.video{
+    width: 800px;;
+}
+
+.picture2{
+    padding: 120px 175px 168px 60px;
+}
+
+.allpoddon{
+    background-color: #245852;
+    padding: 0 0 5px 0;
+    font-family: "Lato", sans-serif;
+}
+
+.text44{
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 95px 0 50px 225px;
+}
+
+.text55{
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 20px 0 100px 225px;
+}
+
+.pricing{
+    padding: 50px 50px 50px 0;
+}
+
+.why_alivio{
+    padding: 0 0 50px 0;
+}
